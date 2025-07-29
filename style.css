@@ -173,3 +173,31 @@ body.dark .main-text {
   background-color: #eab308; /* darker yellow */
   transform: scale(1.05);
 }
+.profile-center {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent);
+}
+
+.ig-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: var(--accent);
+  color: var(--bg);
+  border-radius: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.ig-button:hover {
+  background-color: #eab308;
+  transform: scale(1.05);
+}
