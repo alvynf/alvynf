@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Profilku</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profilku - Tema Kuning</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="dark">
+  <header>
+    <div class="container">
+      <img src="images/profil.jpg" alt="Foto Profil" class="profile-img" />
+      <div>
+        <h1>alvynf</h1>
+        <p>Web Developer</p>
+      </div>
+    </div>
+    <button id="toggleMode">🌗 Ganti Mode</button>
+  </header>
+
   <nav>
-    <a href="index.html">Profil</a>
-    <a href="tutorial.html">Tutorial</a>
+    <a href="index.html">Profil</a> |
+    <a href="hosting.html">Hosting</a> |
     <a href="kucing.html">Kucing</a>
   </nav>
-  <section class="container">
-    <img src="images/profil.jpg" alt="Foto Profil" class="profil-img">
-    <h1>Halo, aku Alfianto Nur Fajri</h1>
-    <p>SMK jurusan TJKT 🌐</p>
-    <p>Follow Instagramku: <a href="https://instagram.com/alvynf_" target="_blank">@alvynf_</a></p>
-  </section>
+
+  <main class="cat-section">
+    <h2>Selamat Datang!</h2>
+    <p>Ini adalah halaman profil personal saya. Klik menu di atas untuk menjelajah 😺</p>
+  </main>
+
+  <footer>
+    <p>© 2025 alvynf</p>
+  </footer>
+
+  <script>
+    document.getElementById('toggleMode').onclick = () => {
+      document.body.classList.toggle('dark');
+    };
+  </script>
 </body>
 </html>
