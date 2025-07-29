@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cara Hosting di GitHub Pages</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <header>
+    <h1>Cara Hosting Website di GitHub Pages</h1>
+    <button id="toggleMode">🌗 Ganti Mode</button>
+  </header>
+
+  <nav>
+    <a href="index.html">Profil</a> |
+    <a href="hosting.html">Hosting</a> |
+    <a href="kucing.html">Kucing</a>
+  </nav>
+
+  <main class="cat-section">
+    <ol style="text-align: left; max-width: 600px; margin: auto;">
+      <li><strong>Buat akun GitHub</strong> di <a href="https://github.com" target="_blank">github.com</a></li>
+      <li><strong>Buat repository baru</strong>, misalnya <code>my-website</code></li>
+      <li><strong>Upload file HTML/CSS/gambar</strong></li>
+      <li><strong>Aktifkan GitHub Pages</strong> di Settings → Pages</li>
+      <li><strong>Akses website-mu</strong> lewat link seperti:
+        <code>https://username.github.io/my-website/</code>
+      </li>
+    </ol>
+  </main>
+
+  <footer>
+    <p>© 2025 Panduan Hosting GitHub Pages by alvynf</p>
+  </footer>
+
+  <script>
+    document.getElementById('toggleMode').onclick = () => {
+      document.body.classList.toggle('dark');
+    };
+  </script>
+</body>
+</html>
