@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Halaman Kucing</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kucing Lucu</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="kucing-theme">
+<body class="dark">
+  <header>
+    <h1>Halaman Kucing Lucu</h1>
+    <button id="toggleMode">🌗 Ganti Mode</button>
+  </header>
+
   <nav>
-    <a href="index.html">Profil</a>
-    <a href="tutorial.html">Tutorial</a>
+    <a href="index.html">Profil</a> |
+    <a href="hosting.html">Hosting</a> |
     <a href="kucing.html">Kucing</a>
   </nav>
-  <section class="container">
-    <h1>Meong~ Selamat datang di Halaman Kucing</h1>
-    <img src="images/kucing1.jpg" alt="Kucing Lucu" width="300">
-    <p>Kucing itu lucu, menggemaskan, dan suka tidur. Cocok buat teman rebahan!</p>
-  </section>
+
+  <main class="cat-section">
+    <h2>Ini Kucing Favoritku 😻</h2>
+    <img src="images/kucing.jpg" alt="Kucing Lucu" class="cat-img" />
+    <p>Kucing ini namanya Komi. Dia kesukaan ku 🧑‍💻</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Komi & alvynf</p>
+  </footer>
+
+  <script>
+    document.getElementById('toggleMode').onclick = () => {
+      document.body.classList.toggle('dark');
+    };
+  </script>
 </body>
 </html>
