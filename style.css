@@ -133,3 +133,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+/* Warna teks konten utama lebih netral di dark mode */
+body.dark .main-text {
+  color: #ffffff; /* Putih terang */
+}
