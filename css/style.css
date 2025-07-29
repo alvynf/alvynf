@@ -1,34 +1,28 @@
+/* Gaya Umum */
 body {
-  font-family: Arial, sans-serif;
-  background: #fffbe6;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8dc; /* kuning pastel */
+  color: #333;
   margin: 0;
   padding: 0;
-  color: #333;
 }
 
+/* Navigasi */
 nav {
-  background-color: #333;
-  padding: 10px;
+  background-color: #f7c948;
+  padding: 15px 0;
   text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 nav a {
-  color: white;
-  margin: 0 15px;
+  color: #333;
+  margin: 0 20px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
 }
 
 nav a:hover {
-  text-decoration: underline;
-}
-
-.container {
-  padding: 20px;
-  text-align: center;
-}
-
-.kucing-theme {
-  background-color: #fff2b2;
-  color: #4d3200;
-}
+  color: #
