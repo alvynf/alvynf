@@ -204,3 +204,12 @@ body.dark .main-text {
   background-color: #eab308;
   transform: scale(1.05);
 }
+.main-text {
+  font-size: 1.1em;
+  line-height: 1.8;
+  padding: 1em;
+}
+
+main h2 {
+  margin-bottom: 0.5em;
+}
